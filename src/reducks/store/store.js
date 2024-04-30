@@ -4,7 +4,7 @@ import {
   applyMiddleware,
   compose,
 } from "redux";
-import thunk from "redux-thunk";
+import thunk from 'redux-thunk';
 
 import { PostsReducer } from "../posts/reducers";
 import { UserReducer } from "../users/reducers";
